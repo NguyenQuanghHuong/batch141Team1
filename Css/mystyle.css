@@ -1,0 +1,70 @@
+body
+{
+    font-family: inherit;
+}
+.container-fluid img
+{
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.row .top
+{
+    background: rgba( 10,10,10,  0.85);
+    width: 103%;
+    height: 70px;
+    opacity: 1px;
+    margin-left: -57px;
+    margin-bottom: 0;
+}
+.row .top1
+{
+    background: rgba(10,10,10,0.6);
+    width: 103%;
+    height: 80px;
+    opacity: 0.6;
+    margin-left: -57px;
+    margin-bottom: 0;
+
+}
+.row .top .col-xl-4
+{
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+.row .top .col-xl-4 ul
+{
+    margin-top: 15px;
+}
+.row .top .col-xl-4 ul li
+{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+.row .top .col-xl-4 ul .icon
+{
+    padding: 5px;
+}
+.row .top .col-xl-4 ul .icon a
+{
+    color: white;
+}
+.row .top .col-xl-8 ul
+{
+    float: right;
+}
+.row .top .col-xl-8 ul .col-xl-4 p
+{
+    color: white;
+    font-size: 20px;
+}
+.row .top .col-xl-8 ul .col-xl-4 p span
+{
+    color: #606463;
+}
