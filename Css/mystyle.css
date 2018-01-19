@@ -98,11 +98,10 @@ body
     text-decoration: none;
 }
 
-
 .row .col-xl-12
-  {
-      height: 241%;
-  }
+{
+    height: 241%;
+}
 .row .col-xl-12 .title
 {
     margin-left: 20%;
