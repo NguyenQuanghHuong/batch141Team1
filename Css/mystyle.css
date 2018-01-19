@@ -4,8 +4,6 @@ body
 }
 .container-fluid img
 {
-    opacity: 0.8;
-    filter: alpha(opacity=50);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -14,7 +12,7 @@ body
 .row .top
 {
     background: rgba( 10,10,10,  0.85);
-    width: 103%;
+    width: 100%;
     height: 70px;
     opacity: 1px;
     margin-bottom: 0;
@@ -22,21 +20,24 @@ body
 .row .top1
 {
     background: rgba(10,10,10,0.6);
-    width: 103%;
+    width: 100%;
     height: 80px;
     opacity: 0.6;
     margin-bottom: 0;
 
 }
+
+.row .top .col-xl-4 li i
+{
+    width: 1.7em;
+}
+
+
 .row .top .col-xl-4
 {
     float: right;
+    width: 25%;
     height: 100%;
-    width: 20%;
-}
-.row .top .col-xl-4 ul li
-{
-    margin-top: 20px;
 }
 .row .top .col-xl-4 ul li
 {
@@ -44,30 +45,99 @@ body
     font-size: 20px;
     color: white;
     display: inline-block;
-}
-.row .top .col-xl-4 ul .icon
-{
-    padding-right: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 .row .top .col-xl-4 ul .icon a
 {
     color: white;
 }
-
-.row .top .col-xl-4 ul p
+.row .top .col-xl-4 .fb:hover
 {
     color: white;
-    font-size: 18px;
+    background-color: #4267b2;
 }
-.row .top .col-xl-4 ul p span
+.row .top .col-xl-4 .tw:hover
+{
+    color: white;
+    background-color: #1da1f2;
+}
+.row .top .col-xl-4 .gg:hover
+{
+    color: white;
+    background-color: #F95139;
+}
+
+
+.row .top .col-xl-8
+{
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+.row .top .col-xl-8 .col-xl-4
+{
+    width: 40%;
+    height: 100%;
+}
+.row .top .col-xl-8 .col-xl-4 ul p
+{
+    color: white;
+    font-size: 20px;
+}
+.row .top .col-xl-8 .col-xl-4 ul p span
 {
     color: #606463;
 }
-.row .top .col-xl-4 ul p a
+.row .top .col-xl-8 .col-xl-4 ul p a
 {
     color: #606463;
 }
-.row .top .col-xl-4 ul li p a:hover
+.row .top .col-xl-8 .col-xl-4 ul li p a:hover
 {
     text-decoration: none;
+}
+
+
+.row .col-xl-12
+  {
+      height: 241%;
+  }
+.row .col-xl-12 .title
+{
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.row .col-xl-12 .title h1
+{
+    color: white;
+    font-size:  7.5rem;
+}
+.row .col-xl-12 .title h3
+{
+    color: white;
+    padding-left: 20%;
+}
+.row .col-xl-12 .submit
+{
+    border: solid;
+    border-color:white ;
+    width: 143px;
+    height: 55px;
+    margin-left: 305px;
+    margin-top: 40px;
+}
+.row .col-xl-12 .submit a
+{
+    text-decoration: none;
+}
+.row .col-xl-12 .submit a p
+{
+    color: white;
+    padding: 12px;
+    padding-left: 31px;
+}
+.row .col-xl-12 .submit:hover
+{
+    background: #64e121;
 }
