@@ -17,7 +17,6 @@ body
     width: 103%;
     height: 70px;
     opacity: 1px;
-    margin-left: -57px;
     margin-bottom: 0;
 }
 .row .top1
@@ -26,7 +25,6 @@ body
     width: 103%;
     height: 80px;
     opacity: 0.6;
-    margin-left: -57px;
     margin-bottom: 0;
 
 }
@@ -36,9 +34,9 @@ body
     height: 100%;
     width: 20%;
 }
-.row .top .col-xl-4 ul
+.row .top .col-xl-4 ul li
 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .row .top .col-xl-4 ul li
 {
@@ -49,22 +47,27 @@ body
 }
 .row .top .col-xl-4 ul .icon
 {
-    padding: 5px;
+    padding-right: 10px;
 }
 .row .top .col-xl-4 ul .icon a
 {
     color: white;
 }
-.row .top .col-xl-8 ul
-{
-    float: right;
-}
-.row .top .col-xl-8 ul .col-xl-4 p
+
+.row .top .col-xl-4 ul p
 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
-.row .top .col-xl-8 ul .col-xl-4 p span
+.row .top .col-xl-4 ul p span
 {
     color: #606463;
+}
+.row .top .col-xl-4 ul p a
+{
+    color: #606463;
+}
+.row .top .col-xl-4 ul li p a:hover
+{
+    text-decoration: none;
 }
