@@ -52,12 +52,21 @@ body
 {
     color: white;
 }
-.row .top .col-xl-4 .icon:hover
+.row .top .col-xl-4 .fb:hover
 {
     color: white;
-    background-color: red;
+    background-color: #4267b2;
 }
-
+.row .top .col-xl-4 .tw:hover
+{
+    color: white;
+    background-color: #1da1f2;
+}
+.row .top .col-xl-4 .gg:hover
+{
+    color: white;
+    background-color: #F95139;
+}
 
 
 .row .top .col-xl-8
