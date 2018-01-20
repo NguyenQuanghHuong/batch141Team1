@@ -213,6 +213,10 @@ body
     text-align: center;
     color: #fff;
 }
+.container-fluid #footer .div1 .row .footer-left ul
+{
+    list-style-type: none;
+}
 #footer
 {
     background-image: url(../Data/img/footer-banner.png);
@@ -232,4 +236,9 @@ body
     width: 402px!important;
     margin-top: 50px;
     height:430px;
+}
+.container-fluid #footer .div1 .row .footer-rigth ul li a
+{
+    text-decoration: none;
+    color: white;
 }
