@@ -171,8 +171,7 @@ body
 }
 .full-footer
 {
-    background-color:#171a1f!important;
-    
+    background-color:#171a1f!important;  
 }
 .container-fluid #footer .div1 .row .footer-left 
 {
@@ -217,17 +216,25 @@ body
 {
     list-style-type: none;
 }
+.container-fluid #footer .div1 .row .footer-left ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.container-fluid #footer .div1 .row .footer-left ul li a:hover
+{
+    color: #1da1f2;
+}
 #footer
 {
     background-image: url(../Data/img/footer-banner.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     width: 100%;
-    height: 480px;
-
+    height: 100%;
 }
-
-.div1 {
+.div1
+{
     margin-left: 70px;
     margin-right: 70px;
 }
@@ -238,7 +245,7 @@ body
     height:430px;
 }
 .container-fluid #footer .div1 .row .footer-rigth ul li a
-{.
+{
     text-decoration: none;
     color: white;
 }
