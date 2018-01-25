@@ -1,6 +1,7 @@
 body
 {
     font-family: inherit;
+    color: #666666;
 }
 .container-fluid img
 {
@@ -145,7 +146,7 @@ body
     border-color:white ;
     width: 143px;
     height: 55px;
-    margin-left: 305px;
+    margin-left: 350px;
     margin-top: 40px;
 }
 .row .col-xl-12 .submit a
@@ -162,22 +163,16 @@ body
 {
     background: #64e121;
 }
-.container
-{
-    margin-top: 190px;
-    background: black;
-    height: 500px;
-    width: 100%;
-}
 .full-footer
 {
-    background-color:#171a1f!important;  
+    background-color:#171a1f;
+
 }
-.container-fluid #footer .div1 .row .footer-left 
+.container-fluid #footer .div1 .row .footer-left
 {
-    background: #88BE4C!important;
-    border-radius: 10px 10px 0 0!important;
-    width: 402px!important;
+    background: #88BE4C;
+    border-radius: 10px 10px 0 0;
+    width: 402px;
     margin-top: 50px;
     height:430px;
 }
@@ -188,7 +183,7 @@ body
     font-family: 'Segoe UI', Tahoma, sans-;
     margin-left: 15px;
 }
-.container-fluid #footer .div1 .row .col-lg-3 h3 
+.container-fluid #footer .div1 .row .footer-left h3
 {
     font-family: 'Segoe UI', Tahoma, sans-;
     font-size: 25px;
@@ -196,7 +191,16 @@ body
     margin-bottom:-16px;
     color: #fff;
     padding: 30px;
-    color: white;
+}
+.container-fluid #footer .div1 .row .footer-rigth h3
+{
+    font-family: 'Segoe UI', Tahoma, sans-;
+    font-size: 23px;
+    margin-top: 0;
+    padding: 30px;
+    color: #88b03d;
+    margin-top: 0;
+    margin-bottom:-16px;
 }
 .container-fluid #footer .div1 .row .footer-left li
 {
@@ -244,8 +248,143 @@ body
     margin-top: 50px;
     height:430px;
 }
+.container-fluid #footer .div1 .row .footer-rigth ul
+{
+    color: #A2A2A2;
+    list-style: circle;
+}
+.container-fluid #footer .div1 .row .footer-rigth ul li
+{
+    padding-top: 30px;
+}
 .container-fluid #footer .div1 .row .footer-rigth ul li a
 {
     text-decoration: none;
+    color: #A2A2A2;
+}
+.container-fluid #footer .div1 .row .footer-rigth ul li a:hover
+{
+    color: #1d8847;
+}
+
+
+
+
+
+
+
+
+
+.container
+{
+    margin-top: 190px;
+    width: 100%;
+    background-color: whitesmoke;
+    height: auto;
+}
+.container .row
+{
+    padding-top: 20px;
+}
+.container .row .col-sm-3 .boder
+{
+    width: 75px;
+    height: 75px;
+    border: 3px solid #45ca1c;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    --border-radius: 75px;
+    border-radius: 75px;
+    margin-left: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #45ca1c;
+}
+.container .row .col-sm-3 .boder:hover
+{
+    background: #64e121;
     color: white;
+    border: 3px solid #999;
+}
+.container .row .col-sm-3 .comment
+{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #45ca1c;
+}
+.container .row .content-left .col-sm-12
+{
+    margin-left: -27px;
+    margin-top: 40px;
+}
+.container .row .content-left .col-sm-12 .item .tieude
+{
+    color: #fff;
+    background-color: #8BC04E;
+    padding: 12px 20px 12px 20px;
+    width: 230px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.17em;
+}
+.container .row .content-left .col-sm-12 .item .tieude::after
+{
+    content: "";
+    height: 1px;
+    width: 1px;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-color: #40B82A #40B82A transparent transparent;
+}
+.container .row .content-left .col-sm-12 ul li
+{
+    width: 200px;
+    height: 340px;
+    display: inline-block;
+    text-align: center;
+}
+.container .row .content-left .col-sm-12 ul li a img
+{
+    height: 180px;
+    object-fit: cover;
+    width: 180px;
+    border: 4px solid #EFEDED;
+    border-radius: 25px;
+}
+.container .row .content-left .col-sm-12 .product-details .item1 .product-title
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 0 0 0;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.container .row .content-left .col-sm-12 ul li h3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.container .row .content-left .col-sm-12 ul li h3 a:hover
+{
+    color: #64e121;
+}
+.container .row .content-left .col-sm-12 ul li p
+{
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+.container .row .content-left .col-sm-12 ul li .clearfix .price .amount
+{
+    color:  #A2A2A2;
+    font-size: 20px;
+    font-weight: bold;
 }
