@@ -1,0 +1,529 @@
+body
+{
+    font-family: inherit;
+    color: #666666;
+}
+.heder-img img
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.header-top .top
+{
+    background: rgba( 10,10,10,0.9);
+    width: 100%;
+    height: 70px;
+    margin-bottom: 0;
+}
+.header-top .top1
+{
+    background: rgba(10,10,10,0.6);
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0;
+
+}
+
+.header-top .top .logo li i
+{
+    width: 1.7em;
+}
+
+
+.header-top .top .logo
+{
+    float: right;
+    width: 25%;
+    height: 100%;
+}
+.header-top .top .logo ul li
+{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+.header-top .top .logo ul .icon a
+{
+    color: white;
+}
+.header-top .top .logo .fb:hover
+{
+    color: white;
+    background-color: #4267b2;
+}
+.header-top .top .logo .tw:hover
+{
+    color: white;
+    background-color: #1da1f2;
+}
+.header-top .top .logo .gg:hover
+{
+    color: white;
+    background-color: #F95139;
+}
+
+
+.header-top .top .contact-tile
+{
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+.header-top .top .contact-tile .logo
+{
+    width: 40%;
+    height: 100%;
+}
+.header-top .top .contact-tile .logo ul p
+{
+    color: white;
+    font-size: 20px;
+}
+.header-top .top .contact-tile .logo ul p span
+{
+    color: #606463;
+}
+.header-top .top .contact-tile .logo ul p a
+{
+    color: #606463;
+}
+.header-top .top .contact-tile .logo ul li p a:hover
+{
+    text-decoration: none;
+}
+.header-top .top1 .menu
+{
+    float: right;
+}
+.header-top .top1 .menu ul
+{
+    padding-top: 20px;
+}
+.header-top .top1 .menu ul li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.header-top .top1 .menu ul li:hover
+{
+    background-color: #64e121;
+}
+.header-top .top1 .menu ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 40px 20px 40px 20px;
+}
+
+.header-top .children
+{
+    height: 241%;
+}
+.header-top .children .title
+{
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.header-top .children .title h1
+{
+    color: white;
+    font-size:  7.5rem;
+}
+.header-top .children .title h3
+{
+    color: white;
+    padding-left: 20%;
+}
+.header-top .children .buy-on
+{
+    border: solid;
+    border-color:white ;
+    width: 143px;
+    height: 55px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.header-top .children .buy-on a
+{
+    text-decoration: none;
+}
+.header-top .children .buy-on a p
+{
+    color: white;
+    padding: 12px;
+    padding-left: 31px;
+}
+.header-top .children .buy-on:hover
+{
+    background: #64e121;
+}
+.container
+{
+    max-width: 1200px;
+}
+.body-all
+{
+    margin-top: 190px;
+    background-color: whitesmoke;
+    height: auto;
+}
+.body-all .Dear
+{
+    padding-top: 20px;
+}
+.body-all .Dear .service .boder
+{
+    width: 75px;
+    height: 75px;
+    border: 3px solid #45ca1c;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    --border-radius: 75px;
+    border-radius: 75px;
+    margin-left: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #45ca1c;
+}
+.body-all .Dear .service .boder:hover
+{
+    background: #64e121;
+    color: white;
+    border: 3px solid #999;
+}
+.body-all .Dear .service .comment
+{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #45ca1c;
+}
+.body-all .Dear .content-left .classify
+{
+    margin-left: -27px;
+    margin-top: 40px;
+}
+.body-all .Dear .content-left .classify .item
+{
+    margin-left: -27px;
+    margin-top: 40px;
+}
+.body-all .Dear .content-left .classify .item .list
+{
+    color: #fff;
+    background-color: #8BC04E;
+    padding: 12px 20px 12px 20px;
+    width: 230px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.17em;
+}
+.body-all .Dear .content-left .classify .item .list::after
+{
+    content: "";
+    height: 1px;
+    width: 1px;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-color: #40B82A #40B82A transparent transparent;
+}
+.body-all .Dear .content-left .classify ul li
+{
+    width: 190px;
+    height: 340px;
+    display: inline-block;
+    text-align: center;
+}
+.body-all .Dear .content-left .classify ul li a img
+{
+    height: 180px;
+    object-fit: cover;
+    width: 180px;
+    border: 4px solid #EFEDED;
+    border-radius: 25px;
+}
+.body-all .Dear .content-left .classify .product-details .item1 .product-title
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 0 0 0;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.body-all .Dear .content-left .classify ul li h3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.body-all .Dear .content-left .classify ul li h3 a:hover
+{
+    color: #64e121;
+}
+.body-all .Dear .content-left .classify ul li p
+{
+    font-size: 12px;
+}
+.body-all .Dear .content-left .classify ul li .clearfix .price .amount
+{
+    color:  #A2A2A2;
+    font-size: 20px;
+font-weight: bold;
+}
+.body-all .Dear .content-right
+{
+    background: white;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.body-all .Dear .content-right .right-1
+{
+    padding-top: 30px;
+}
+.body-all .Dear .content-right .right-1 .right-1-content  h3
+{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+}
+.body-all .Dear .content-right .right-1 .right-1-content p
+{
+    text-align: center;
+    font-family: "Open Sans";
+    color: #fec30c;
+    font-size: 26px;
+}
+.body-all .Dear .content-right.item-right
+{
+    margin-left: -27px;
+    margin-top: 40px;
+}
+.body-all .Dear .content-right .item-right .list-right
+{
+    margin-left: -25px;
+    font-family: "OpenSans-Bold";
+    color: #fff;
+    background-color: #FF4141 ;
+    padding: 10px 0px 10px 11px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.body-all .Dear .content-right  .item-right .list-right::after
+{
+    content: "";
+    height: 1px;
+    width: 1px;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-color: #DC3131 #DC3131 transparent transparent;
+}
+.body-all .Dear .content-right .img-righ ul li
+{
+    list-style-type: none;
+}
+.body-all .Dear .content-right .img-righ ul li a
+{
+    display: inline-block;
+}
+.body-all .Dear .content-right .img-righ ul li a img
+{
+    height: 85px;
+    object-fit: cover;
+    max-width: 85px;
+    float: left;
+    border-radius: 100px;
+    border: solid 4px #ebebeb;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.body-all .Dear .content-right .img-righ ul li a .title-right
+{
+
+}
+.body-all .Dear .content-right .img-righ ul li .amount-right
+{
+    display: inline;
+}
+.body-all .Dear .content-right .connect-right ul li
+{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 100px;
+    border: solid 4px #ebebeb;
+}
+.body-all .Dear .content-right .connect-right  ul .icon a
+{
+    color: white;
+}
+.body-all .Dear .content-right .connect-right  .fb
+{
+    color: white;
+    background-color: #4267b2;
+}
+.body-all .Dear .content-right .connect-right  .tw
+{
+    color: white;
+    background-color: #1da1f2;
+}
+.body-all .Dear .content-right .connect-right  .gg
+{
+    color: white;
+    background-color: #F95139;
+}
+.body-all .Dear .content-right .connect-right .pp
+{
+    color: white;
+    background-color: #64e121;
+}
+.body-all .Dear .connect-believe .img-believe
+{
+    height: 150px;
+    border: 3px solid  #ebebeb;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.body-all .Dear .connect-believe h4
+{
+    border-left: solid 4px #8db835;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.body-all .Dear .connect-believe h4 a
+{
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.body-all .Dear .connect-believe h4 a:hover
+{
+    color: #64e121;
+    text-decoration: none;
+}
+.full-footer
+{
+    background-color:#171a1f;
+
+}
+#footer
+{
+    background-image: url(../../Data/img/footer-banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 100%;
+    height: 100%;
+}
+.total
+{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.full-footer #footer .total .Between .footer-left
+{
+    background: #88BE4C;
+    border-radius: 10px 10px 0 0;
+    width: 402px;
+    margin-top: 50px;
+    height:430px;
+}
+.full-footer #footer .total .Between .footer-left p
+{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    margin-left: 15px;
+}
+.full-footer #footer .total .Between .footer-left h3
+{
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom:-16px;
+    color: #fff;
+    padding: 30px;
+}
+.full-footer #footer .total .Between .footer-left li
+{
+    padding-bottom: 16px;
+    font-size: 15px;
+    color: #fff;
+}
+.full-footer #footer .total .Between .footer-left i
+{
+    width: 24px;
+    vertical-align: middle;
+    font-size: 20px!important;
+    text-align: center;
+    color: #fff;
+}
+.full-footer #footer .total .Between .footer-left ul
+{
+    list-style-type: none;
+}
+.full-footer #footer .total .Between .footer-left ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.full-footer #footer .total .Between .footer-left ul li a:hover
+{
+    color: #1da1f2;
+}
+.full-footer #footer .total .Between .footer-rigth 
+{
+    width: 402px!important;
+    margin-top: 50px;
+    height:430px;
+}
+.full-footer #footer .total .Between .footer-rigth h3
+{
+    font-family: 'Segoe UI', Tahoma, sans-;
+    font-size: 23px;
+    margin-top: 0;
+    padding: 30px;
+    color: #88b03d;
+    margin-top: 0;
+    margin-bottom:-16px;
+}
+.full-footer #footer .total .Between .footer-rigth ul
+{
+    color: #A2A2A2;
+    list-style: circle;
+}
+.full-footer #footer .total .Between .footer-rigth ul li
+{
+    padding-top: 30px;
+}
+.full-footer #footer .total .Between .footer-rigth ul li a
+{
+    text-decoration: none;
+    color: #A2A2A2;
+}
+.full-footer #footer .total .Between .footer-rigth ul li a:hover
+{
+    color: #1d8847;
+}
+
