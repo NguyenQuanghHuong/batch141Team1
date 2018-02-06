@@ -118,9 +118,9 @@ body
     color: white;
     text-decoration: none;
     font-size: 25px;
-    padding: 40px 20px 40px 20px;
+    padding-right: 10px;
+    margin-left: 10px;
 }
-
 .header-top .children
 {
     height: 241%;
@@ -169,7 +169,7 @@ body
 }
 .body-all
 {
-    margin-top: 190px;
+    margin-top: 208px;
     background-color: whitesmoke;
     height: auto;
 }
@@ -288,6 +288,7 @@ font-weight: bold;
     background: white;
     margin-top: 20px;
     margin-left: -20px;
+    height: 100%;
 }
 .body-all .Dear .content-right .right-1
 {
@@ -356,11 +357,15 @@ font-weight: bold;
 }
 .body-all .Dear .content-right .img-righ ul li a .title-right
 {
-
+    font-size: 15px;
+    color: black;
+    display: inline;
 }
 .body-all .Dear .content-right .img-righ ul li .amount-right
 {
     display: inline;
+    color: blue;
+    font-size: 17px;
 }
 .body-all .Dear .content-right .connect-right ul li
 {
@@ -426,7 +431,6 @@ font-weight: bold;
 .full-footer
 {
     background-color:#171a1f;
-
 }
 #footer
 {
@@ -434,7 +438,7 @@ font-weight: bold;
     background-repeat: no-repeat;
     background-position: bottom center;
     width: 100%;
-    height: 100%;
+    height: 370px;
 }
 .total
 {
@@ -447,7 +451,7 @@ font-weight: bold;
     border-radius: 10px 10px 0 0;
     width: 402px;
     margin-top: 50px;
-    height:430px;
+    height:320px;
 }
 .full-footer #footer .total .Between .footer-left p
 {
@@ -467,7 +471,7 @@ font-weight: bold;
 }
 .full-footer #footer .total .Between .footer-left li
 {
-    padding-bottom: 16px;
+    padding-bottom: 10px;
     font-size: 15px;
     color: #fff;
 }
@@ -496,7 +500,7 @@ font-weight: bold;
 {
     width: 402px!important;
     margin-top: 50px;
-    height:430px;
+    height:280px;
 }
 .full-footer #footer .total .Between .footer-rigth h3
 {
@@ -515,7 +519,7 @@ font-weight: bold;
 }
 .full-footer #footer .total .Between .footer-rigth ul li
 {
-    padding-top: 30px;
+    padding-top: 17px;
 }
 .full-footer #footer .total .Between .footer-rigth ul li a
 {
